@@ -7,7 +7,7 @@ export default function LoadBabysNames() {
       {babysNameArr
         .sort((a, b) => a.name.localeCompare(b.name))
         .map((element) => (
-          <span key={element.id} className={element.sex + " " + "name-button"}>
+          <span key={element.id} className={`${element.sex} name-button`}>
             {element.name}
           </span>
         ))}
