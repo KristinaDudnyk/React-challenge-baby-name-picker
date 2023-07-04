@@ -1,7 +1,6 @@
 import React from "react";
-import babysNameArr from "../data/babyNamesData";
 
-export default function LoadBabysNames() {
+export default function LoadBabysNames({ babysNameArr }) {
   return (
     <div className="names-container">
       {babysNameArr
